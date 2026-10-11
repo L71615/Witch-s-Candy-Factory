@@ -1,0 +1,2507 @@
+<Rive version="1" kind="fragment">
+<Artboard name="Factory" id="0:2" width="1600" height="900" styleId="0:5" viewModelId="0:40" defaultStateMachineId="0:7" clip="true">
+<LayoutComponentStyle id="0:5"/>
+<LayoutComponent width="1600" height="900" styleId="0:11" name="Pointer and recipe controller" id="0:10">
+<LayoutComponentStyle id="0:11" positionTypeValue="absolute" positionLeft="0" positionTop="0" positionLeftUnitsValue="points" positionTopUnitsValue="points" layoutWidthScaleType="fill" layoutHeightScaleType="fill" widthUnitsValue="auto" heightUnitsValue="auto"/>
+<ScriptedLayout scriptAssetId="0:80" name="Game" id="0:13"/>
+</LayoutComponent>
+<Node name="Ending and choice overlay">
+<DataBindContext sourcePathIds="0:40-0:1012" propertyKey="18"/>
+<Text name="Ending title" x="800" y="279" sizingValue="autoWidth" originX="0.5">
+<TextStylePaint id="0:1105" fontAssetId="0:90" fontSize="54" lineHeight="70.2">
+<Fill>
+<SolidColor colorValue="FFF9DEAD"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1105" text="The last batch">
+<DataBindContext sourcePathIds="0:40-0:1036" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Text name="Ending story" x="530" y="364" width="540" sizingValue="autoHeight" wrapValue="wrap" alignValue="center">
+<TextStylePaint id="0:1106" fontAssetId="0:91" fontSize="23" lineHeight="29.900000000000002">
+<Fill>
+<SolidColor colorValue="FFE7CBDC"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1106" text="">
+<DataBindContext sourcePathIds="0:40-0:1037" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Node name="Decision buttons">
+<DataBindContext sourcePathIds="0:40-0:1052" propertyKey="18"/>
+<Text name="Finish" x="632" y="567" sizingValue="autoWidth" originX="0.5">
+<TextStylePaint id="0:1107" fontAssetId="0:91" fontSize="17" lineHeight="22.1">
+<Fill>
+<SolidColor colorValue="FF271A37"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1107" text="KEEP HALLOWEEN">
+</TextValueRun>
+</Text>
+<Shape name="Finish choice" x="491" y="541" id="0:202">
+<Rectangle width="284" height="60" originX="0" originY="0" cornerRadiusTL="15"/>
+<Fill>
+<SolidColor colorValue="FFE6AD65"/>
+</Fill>
+</Shape>
+<Text name="Break" x="973" y="567" sizingValue="autoWidth" originX="0.5">
+<TextStylePaint id="0:1108" fontAssetId="0:91" fontSize="16" lineHeight="20.8">
+<Fill>
+<SolidColor colorValue="FFF6DCAF"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1108" text="RELEASE THE MEMORIES">
+</TextValueRun>
+</Text>
+<Shape name="Break choice" x="808" y="541" id="0:203">
+<Rectangle width="332" height="60" originX="0" originY="0" cornerRadiusTL="15"/>
+<Fill>
+<SolidColor colorValue="FF443556"/>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFBF92AE"/>
+</Stroke>
+</Shape>
+</Node>
+<Node name="Ending signature">
+<DataBindContext sourcePathIds="0:40-0:1053" propertyKey="18"/>
+<Text name="Ending hint" x="800" y="547" sizingValue="autoWidth" originX="0.5">
+<TextStylePaint id="0:1109" fontAssetId="0:91" fontSize="17" lineHeight="22.1">
+<Fill>
+<SolidColor colorValue="FFFFD697"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1109" text="">
+<DataBindContext sourcePathIds="0:40-0:1054" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Text name="Replay label" x="800" y="601" sizingValue="autoWidth" originX="0.5">
+<TextStylePaint id="0:1110" fontAssetId="0:91" fontSize="14" lineHeight="18.2">
+<Fill>
+<SolidColor colorValue="FF251C34"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1110" text="PLAY AGAIN">
+</TextValueRun>
+</Text>
+<Shape name="Replay" x="701" y="579" id="0:206">
+<Rectangle width="198" height="50" originX="0" originY="0" cornerRadiusTL="12"/>
+<Fill>
+<SolidColor colorValue="FFEAC58E"/>
+</Fill>
+</Shape>
+</Node>
+<Shape name="Ending panel" x="415" y="236" >
+<Rectangle width="770" height="416" originX="0" originY="0" cornerRadiusTL="28"/>
+<Fill>
+<SolidColor colorValue="F51C142B"/>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFC2946D"/>
+</Stroke>
+</Shape>
+<Shape name="Ending veil" x="0" y="0" >
+<Rectangle width="1600" height="900" originX="0" originY="0" cornerRadiusTL="0"/>
+<Fill>
+<SolidColor colorValue="B8110B22"/>
+</Fill>
+</Shape>
+</Node>
+<Text name="Title" x="67" y="39" sizingValue="autoWidth" >
+<TextStylePaint id="0:1111" fontAssetId="0:90" fontSize="53" lineHeight="68.9">
+<Fill>
+<SolidColor colorValue="FFFFD792"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1111" text="Witch’s">
+</TextValueRun>
+</Text>
+<Text name="Title second line" x="72" y="104" sizingValue="autoWidth" >
+<TextStylePaint id="0:1112" fontAssetId="0:91" fontSize="19" lineHeight="24.7">
+<Fill>
+<SolidColor colorValue="FFF5C696"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1112" text="CANDY FACTORY">
+</TextValueRun>
+</Text>
+<Text name="Chapter tagline" x="73" y="139" sizingValue="autoWidth" >
+<TextStylePaint id="0:1113" fontAssetId="0:91" fontSize="10" lineHeight="13">
+<Fill>
+<SolidColor colorValue="FFD2ABC8"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1113" text="A LITTLE SWEET. A LITTLE SINISTER.">
+</TextValueRun>
+</Text>
+<Text name="Time" x="1450" y="66" sizingValue="autoWidth" originX="0.5">
+<TextStylePaint id="0:1114" fontAssetId="0:90" fontSize="28" lineHeight="36.4">
+<Fill>
+<SolidColor colorValue="FFFFD995"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1114" text="">
+<DataBindContext sourcePathIds="0:40-0:1035" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Text name="Time subtitle" x="1450" y="103" sizingValue="autoWidth" originX="0.5">
+<TextStylePaint id="0:1115" fontAssetId="0:91" fontSize="10" lineHeight="13">
+<Fill>
+<SolidColor colorValue="FFD4B4C9"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1115" text="BEFORE THE LAST BELL">
+</TextValueRun>
+</Text>
+<Text name="Restart label" x="1500" y="164" sizingValue="autoWidth" originX="0.5">
+<TextStylePaint id="0:1116" fontAssetId="0:91" fontSize="12" lineHeight="15.600000000000001">
+<Fill>
+<SolidColor colorValue="FFFFD7A4"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1116" text="RESTART">
+</TextValueRun>
+</Text>
+<Shape name="Restart" x="1454" y="151" id="0:204">
+<Rectangle width="92" height="38" originX="0" originY="0" cornerRadiusTL="10"/>
+<Fill>
+<SolidColor colorValue="B522182C"/>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="80775377"/>
+</Stroke>
+</Shape>
+<Text name="Sound label" x="1387" y="164" sizingValue="autoWidth" originX="0.5">
+<TextStylePaint id="0:1117" fontAssetId="0:91" fontSize="11" lineHeight="14.3">
+<Fill>
+<SolidColor colorValue="FFFFD7A4"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1117" text="SOUND OFF">
+<DataBindContext sourcePathIds="0:40-0:1056" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Shape name="Sound toggle" x="1328" y="151" id="0:205">
+<Rectangle width="119" height="38" originX="0" originY="0" cornerRadiusTL="10"/>
+<Fill>
+<SolidColor colorValue="B522182C"/>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="80775377"/>
+</Stroke>
+</Shape>
+<Shape name="Clock plate" x="1343" y="42" >
+<Rectangle width="213" height="88" originX="0" originY="0" cornerRadiusTL="18"/>
+<Fill>
+<SolidColor colorValue="C61C1429"/>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FF806076"/>
+</Stroke>
+</Shape>
+<Text name="Order number" x="1210" y="249" sizingValue="autoWidth" >
+<TextStylePaint id="0:1118" fontAssetId="0:91" fontSize="12" lineHeight="15.600000000000001">
+<Fill>
+<SolidColor colorValue="FFDAAA72"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1118" text="">
+<DataBindContext sourcePathIds="0:40-0:1027" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Text name="Recipe title" x="1210" y="282" width="274" sizingValue="autoHeight" wrapValue="wrap" >
+<TextStylePaint id="0:1119" fontAssetId="0:90" fontSize="30" lineHeight="39">
+<Fill>
+<SolidColor colorValue="FFFFE7C2"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1119" text="">
+<DataBindContext sourcePathIds="0:40-0:1028" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Text name="Recipe note" x="1210" y="333" width="265" sizingValue="autoHeight" wrapValue="wrap" >
+<TextStylePaint id="0:1120" fontAssetId="0:91" fontSize="15" lineHeight="19.5">
+<Fill>
+<SolidColor colorValue="FFD1AFC4"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1120" text="">
+<DataBindContext sourcePathIds="0:40-0:1029" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Shape name="Divider" x="1210" y="392" >
+<Rectangle width="264" height="1" originX="0" originY="0" cornerRadiusTL="0"/>
+<Fill>
+<SolidColor colorValue="FF72516A"/>
+</Fill>
+</Shape>
+<Text name="Recipe subhead" x="1210" y="411" sizingValue="autoWidth" >
+<TextStylePaint id="0:1121" fontAssetId="0:91" fontSize="10" lineHeight="13">
+<Fill>
+<SolidColor colorValue="FFCA9B73"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1121" text="THE RECIPE">
+</TextValueRun>
+</Text>
+<Text name="Recipe ingredient one" x="1239" y="447" width="236" sizingValue="autoHeight" wrapValue="wrap" >
+<TextStylePaint id="0:1122" fontAssetId="0:91" fontSize="19" lineHeight="24.7">
+<Fill>
+<SolidColor colorValue="FFFFDFC2"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1122" text="">
+<DataBindContext sourcePathIds="0:40-0:1030" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Text name="Recipe ingredient two" x="1239" y="489" width="236" sizingValue="autoHeight" wrapValue="wrap" >
+<TextStylePaint id="0:1123" fontAssetId="0:91" fontSize="19" lineHeight="24.7">
+<Fill>
+<SolidColor colorValue="FFFFDFC2"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1123" text="">
+<DataBindContext sourcePathIds="0:40-0:1031" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Shape x="1217" y="460">
+<Star width="10" height="10" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFD788"/>
+</Fill>
+</Shape>
+<Shape x="1217" y="502">
+<Star width="10" height="10" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFD788"/>
+</Fill>
+</Shape>
+<Text name="Mix subhead" x="1210" y="552" sizingValue="autoWidth" >
+<TextStylePaint id="0:1124" fontAssetId="0:91" fontSize="10" lineHeight="13">
+<Fill>
+<SolidColor colorValue="FFD5A2BC"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1124" text="STIR TO AWAKEN THE MAGIC">
+</TextValueRun>
+</Text>
+<Shape x="1210" y="581" name="Mix progress">
+<Rectangle height="7" cornerRadiusTL="3" originX="0" originY="0">
+<DataBindContext sourcePathIds="0:40-0:1026" propertyKey="20"/>
+</Rectangle>
+<Fill>
+<SolidColor colorValue="FFFFC976"/>
+</Fill>
+</Shape>
+<Shape name="Mix track" x="1210" y="581" >
+<Rectangle width="264" height="7" originX="0" originY="0" cornerRadiusTL="3"/>
+<Fill>
+<SolidColor colorValue="FF503044"/>
+</Fill>
+</Shape>
+<Text name="Action text" x="1342" y="636" sizingValue="autoWidth" originX="0.5">
+<TextStylePaint id="0:1125" fontAssetId="0:91" fontSize="15" lineHeight="19.5">
+<Fill>
+<SolidColor colorValue="FF2E1A35"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1125" text="">
+<DataBindContext sourcePathIds="0:40-0:1033" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Shape name="Action button" x="1208" y="613" id="0:201">
+<Rectangle width="268" height="55" originX="0" originY="0" cornerRadiusTL="12"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="55">
+<GradientStop colorValue="FFFFD694" position="0"/>
+<GradientStop colorValue="FFEBA65B" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="1" cap="round" join="round">
+<SolidColor colorValue="FFFFE0B0"/>
+</Stroke>
+</Shape>
+<Text name="Hint" x="1208" y="690" width="274" sizingValue="autoHeight" wrapValue="wrap" >
+<TextStylePaint id="0:1126" fontAssetId="0:91" fontSize="13" lineHeight="16.900000000000002">
+<Fill>
+<SolidColor colorValue="FFCDB2C9"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1126" text="">
+<DataBindContext sourcePathIds="0:40-0:1032" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Shape name="Recipe board" x="1172" y="215" >
+<Rectangle width="344" height="557" originX="0" originY="0" cornerRadiusTL="23"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="557">
+<GradientStop colorValue="F3271C34" position="0"/>
+<GradientStop colorValue="F6191426" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFA17668"/>
+</Stroke>
+</Shape>
+<Shape x="1195" y="235">
+<Star width="12" height="12" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFD788"/>
+</Fill>
+</Shape>
+<Shape x="1491" y="751">
+<Star width="12" height="12" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFD788"/>
+</Fill>
+</Shape>
+<Text name="Dialogue" x="469" y="821" width="622" sizingValue="autoHeight" wrapValue="wrap" >
+<TextStylePaint id="0:1127" fontAssetId="0:91" fontSize="17" lineHeight="22.1">
+<Fill>
+<SolidColor colorValue="FFFFE6C4"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1127" text="">
+<DataBindContext sourcePathIds="0:40-0:1034" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Shape name="Dialogue ribbon" x="440" y="801" >
+<Rectangle width="697" height="73" originX="0" originY="0" cornerRadiusTL="17"/>
+<Fill>
+<SolidColor colorValue="E621162D"/>
+</Fill>
+<Stroke thickness="1" cap="round" join="round">
+<SolidColor colorValue="FF94696E"/>
+</Stroke>
+</Shape>
+<Text name="Ingredients header" x="205" y="224" sizingValue="autoWidth" originX="0.5">
+<TextStylePaint id="0:1128" fontAssetId="0:91" fontSize="15" lineHeight="19.5">
+<Fill>
+<SolidColor colorValue="FFFFD998"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1128" text="THE PANTRY">
+</TextValueRun>
+</Text>
+<Node name="Ingredient 1">
+<DataBindContext sourcePathIds="0:40-0:1017" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1018" propertyKey="14"/>
+<DataBindContext sourcePathIds="0:40-0:1023" propertyKey="18"/>
+<Text name="Ingredient name" x="0" y="51" sizingValue="autoWidth" originX="0.5">
+<TextStylePaint id="0:1129" fontAssetId="0:91" fontSize="17" lineHeight="22.1">
+<Fill>
+<SolidColor colorValue="FFF4DBB7"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1129" text="Moon sugar">
+</TextValueRun>
+</Text>
+<Text name="Pick up" x="0" y="77" sizingValue="autoWidth" originX="0.5">
+<TextStylePaint id="0:1130" fontAssetId="0:91" fontSize="9" lineHeight="11.700000000000001">
+<Fill>
+<SolidColor colorValue="FFBA9EBC"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1130" text="DRAG TO CAULDRON">
+</TextValueRun>
+</Text>
+<Shape name="Glass shine" x="-35" y="-2" >
+<Ellipse width="8" height="57" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="50FFFFFF"/>
+</Fill>
+</Shape>
+<Shape x="-24" y="-12">
+<Star width="28" height="28" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFEFC9FE"/>
+</Fill>
+</Shape>
+<Shape x="16" y="8">
+<Star width="36" height="36" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFF7E3AF"/>
+</Fill>
+</Shape>
+<Shape x="22" y="-18">
+<Star width="18" height="18" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFD59DF1"/>
+</Fill>
+</Shape>
+<Shape name="Cork" x="-33" y="-67" >
+<Rectangle width="66" height="18" originX="0" originY="0" cornerRadiusTL="5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="20">
+<GradientStop colorValue="FFD7AC6A" position="0"/>
+<GradientStop colorValue="FF885128" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFECC27C"/>
+</Stroke>
+</Shape>
+<Shape name="Glass vessel" x="-55" y="-47" >
+<Rectangle width="110" height="84" originX="0" originY="0" cornerRadiusTL="20"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="85">
+<GradientStop colorValue="55362353" position="0"/>
+<GradientStop colorValue="A531203F" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFC99DED"/>
+</Stroke>
+</Shape>
+<Shape name="Jar base" x="0" y="39" >
+<Ellipse width="102" height="12" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF21182C"/>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="887F5B69"/>
+</Stroke>
+</Shape>
+</Node>
+<Node name="Ingredient 2">
+<DataBindContext sourcePathIds="0:40-0:1019" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1020" propertyKey="14"/>
+<DataBindContext sourcePathIds="0:40-0:1024" propertyKey="18"/>
+<Text name="Ingredient name" x="0" y="51" sizingValue="autoWidth" originX="0.5">
+<TextStylePaint id="0:1131" fontAssetId="0:91" fontSize="17" lineHeight="22.1">
+<Fill>
+<SolidColor colorValue="FFF4DBB7"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1131" text="Pumpkin spice">
+<DataBindContext sourcePathIds="0:40-0:1038" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Text name="Pick up" x="0" y="77" sizingValue="autoWidth" originX="0.5">
+<TextStylePaint id="0:1132" fontAssetId="0:91" fontSize="9" lineHeight="11.700000000000001">
+<Fill>
+<SolidColor colorValue="FFBA9EBC"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1132" text="DRAG TO CAULDRON">
+</TextValueRun>
+</Text>
+<Shape name="Glass shine" x="-35" y="-2" >
+<Ellipse width="8" height="57" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="50FFFFFF"/>
+</Fill>
+</Shape>
+<Node name="Pumpkin spice" scaleX="0.74" scaleY="0.74">
+<Shape name="Pumpkin grin" >
+<PointsPath isClosed="true">
+<StraightVertex x="-20" y="7" radius="0"/>
+<StraightVertex x="-8" y="13" radius="0"/>
+<StraightVertex x="0" y="8" radius="0"/>
+<StraightVertex x="8" y="13" radius="0"/>
+<StraightVertex x="20" y="7" radius="0"/>
+<StraightVertex x="13" y="22" radius="0"/>
+<StraightVertex x="-12" y="22" radius="0"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FF482338"/>
+</Fill>
+</Shape>
+<Shape name="Pumpkin left eye" >
+<PointsPath isClosed="true">
+<StraightVertex x="-23" y="-13" radius="0"/>
+<StraightVertex x="-8" y="-9" radius="0"/>
+<StraightVertex x="-17" y="-2" radius="0"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FF482338"/>
+</Fill>
+</Shape>
+<Shape name="Pumpkin right eye" >
+<PointsPath isClosed="true">
+<StraightVertex x="8" y="-9" radius="0"/>
+<StraightVertex x="23" y="-13" radius="0"/>
+<StraightVertex x="17" y="-2" radius="0"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FF482338"/>
+</Fill>
+</Shape>
+<Shape name="Pumpkin stem" x="-4" y="-41" >
+<Rectangle width="9" height="18" originX="0" originY="0" cornerRadiusTL="3"/>
+<Fill>
+<SolidColor colorValue="FF9CB46C"/>
+</Fill>
+</Shape>
+<Shape name="Pumpkin stripe" x="0" y="0" >
+<Ellipse width="37" height="65" originX="0.5" originY="0.5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="36">
+<GradientStop colorValue="FFFFCB68" position="0"/>
+<GradientStop colorValue="FFEB813A" position="1"/>
+</LinearGradient>
+</Fill>
+</Shape>
+<Shape name="Pumpkin body" x="0" y="0" >
+<Ellipse width="79" height="61" originX="0.5" originY="0.5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="36">
+<GradientStop colorValue="FFFFAF54" position="0"/>
+<GradientStop colorValue="FFD65838" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFF9C17F"/>
+</Stroke>
+</Shape>
+</Node>
+<Shape name="Cork" x="-33" y="-67" >
+<Rectangle width="66" height="18" originX="0" originY="0" cornerRadiusTL="5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="20">
+<GradientStop colorValue="FFD7AC6A" position="0"/>
+<GradientStop colorValue="FF885128" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFECC27C"/>
+</Stroke>
+</Shape>
+<Shape name="Glass vessel" x="-55" y="-47" >
+<Rectangle width="110" height="84" originX="0" originY="0" cornerRadiusTL="20"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="85">
+<GradientStop colorValue="55362353" position="0"/>
+<GradientStop colorValue="A531203F" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFEDAA6D"/>
+</Stroke>
+</Shape>
+<Shape name="Jar base" x="0" y="39" >
+<Ellipse width="102" height="12" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF21182C"/>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="887F5B69"/>
+</Stroke>
+</Shape>
+</Node>
+<Node name="Ingredient 3">
+<DataBindContext sourcePathIds="0:40-0:1021" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1022" propertyKey="14"/>
+<DataBindContext sourcePathIds="0:40-0:1025" propertyKey="18"/>
+<Text name="Ingredient name" x="0" y="51" sizingValue="autoWidth" originX="0.5">
+<TextStylePaint id="0:1133" fontAssetId="0:91" fontSize="17" lineHeight="22.1">
+<Fill>
+<SolidColor colorValue="FFF4DBB7"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1133" text="Ghost cream">
+<DataBindContext sourcePathIds="0:40-0:1039" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Text name="Pick up" x="0" y="77" sizingValue="autoWidth" originX="0.5">
+<TextStylePaint id="0:1134" fontAssetId="0:91" fontSize="9" lineHeight="11.700000000000001">
+<Fill>
+<SolidColor colorValue="FFBA9EBC"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1134" text="DRAG TO CAULDRON">
+</TextValueRun>
+</Text>
+<Shape name="Glass shine" x="-35" y="-2" >
+<Ellipse width="8" height="57" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="50FFFFFF"/>
+</Fill>
+</Shape>
+<Node name="Ghost cream" scaleX="0.7" scaleY="0.7">
+<Shape name="Ghost eye left" x="-12" y="-5" >
+<Ellipse width="5" height="10" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF3F2751"/>
+</Fill>
+</Shape>
+<Shape name="Ghost eye right" x="12" y="-5" >
+<Ellipse width="5" height="10" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF3F2751"/>
+</Fill>
+</Shape>
+<Shape name="Ghost smile" x="0" y="12" >
+<Ellipse width="9" height="9" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFAE75A0"/>
+</Fill>
+</Shape>
+<Shape name="Ghost cheek left" x="-21" y="6" >
+<Ellipse width="10" height="5" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="66D591BE"/>
+</Fill>
+</Shape>
+<Shape name="Ghost cheek right" x="21" y="6" >
+<Ellipse width="10" height="5" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="66D591BE"/>
+</Fill>
+</Shape>
+<Shape name="Ghost body" >
+<PointsPath isClosed="true">
+<StraightVertex x="-31" y="30" radius="7"/>
+<StraightVertex x="-32" y="-14" radius="20"/>
+<StraightVertex x="-17" y="-37" radius="13"/>
+<StraightVertex x="14" y="-38" radius="15"/>
+<StraightVertex x="32" y="-14" radius="18"/>
+<StraightVertex x="35" y="32" radius="5"/>
+<StraightVertex x="20" y="22" radius="3"/>
+<StraightVertex x="5" y="33" radius="3"/>
+<StraightVertex x="-8" y="23" radius="3"/>
+<StraightVertex x="-20" y="32" radius="3"/>
+</PointsPath>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="35">
+<GradientStop colorValue="FFFFF3E6" position="0"/>
+<GradientStop colorValue="FFB6C4EC" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFF5DCFE"/>
+</Stroke>
+</Shape>
+</Node>
+<Shape name="Cork" x="-33" y="-67" >
+<Rectangle width="66" height="18" originX="0" originY="0" cornerRadiusTL="5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="20">
+<GradientStop colorValue="FFD7AC6A" position="0"/>
+<GradientStop colorValue="FF885128" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFECC27C"/>
+</Stroke>
+</Shape>
+<Shape name="Glass vessel" x="-55" y="-47" >
+<Rectangle width="110" height="84" originX="0" originY="0" cornerRadiusTL="20"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="85">
+<GradientStop colorValue="55362353" position="0"/>
+<GradientStop colorValue="A531203F" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFA6CFCE"/>
+</Stroke>
+</Shape>
+<Shape name="Jar base" x="0" y="39" >
+<Ellipse width="102" height="12" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF21182C"/>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="887F5B69"/>
+</Stroke>
+</Shape>
+</Node>
+<Shape name="Pantry shadow" x="116" y="211" >
+<Rectangle width="178" height="555" originX="0" originY="0" cornerRadiusTL="22"/>
+<Fill>
+<SolidColor colorValue="B322162B"/>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="7879575B"/>
+</Stroke>
+</Shape>
+<Node name="Sugar spark 0">
+<DataBindContext sourcePathIds="0:40-0:1069" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1070" propertyKey="14"/>
+<DataBindContext sourcePathIds="0:40-0:1071" propertyKey="18"/>
+<Shape x="0" y="0">
+<Star width="6" height="6" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFEAB8F9"/>
+</Fill>
+</Shape>
+</Node>
+<Node name="Sugar spark 1">
+<DataBindContext sourcePathIds="0:40-0:1072" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1073" propertyKey="14"/>
+<DataBindContext sourcePathIds="0:40-0:1074" propertyKey="18"/>
+<Shape x="0" y="0">
+<Star width="8" height="8" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFD891"/>
+</Fill>
+</Shape>
+</Node>
+<Node name="Sugar spark 2">
+<DataBindContext sourcePathIds="0:40-0:1075" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1076" propertyKey="14"/>
+<DataBindContext sourcePathIds="0:40-0:1077" propertyKey="18"/>
+<Shape x="0" y="0">
+<Star width="10" height="10" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFD891"/>
+</Fill>
+</Shape>
+</Node>
+<Node name="Sugar spark 3">
+<DataBindContext sourcePathIds="0:40-0:1078" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1079" propertyKey="14"/>
+<DataBindContext sourcePathIds="0:40-0:1080" propertyKey="18"/>
+<Shape x="0" y="0">
+<Star width="6" height="6" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFEAB8F9"/>
+</Fill>
+</Shape>
+</Node>
+<Node name="Sugar spark 4">
+<DataBindContext sourcePathIds="0:40-0:1081" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1082" propertyKey="14"/>
+<DataBindContext sourcePathIds="0:40-0:1083" propertyKey="18"/>
+<Shape x="0" y="0">
+<Star width="8" height="8" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFD891"/>
+</Fill>
+</Shape>
+</Node>
+<Node name="Sugar spark 5">
+<DataBindContext sourcePathIds="0:40-0:1084" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1085" propertyKey="14"/>
+<DataBindContext sourcePathIds="0:40-0:1086" propertyKey="18"/>
+<Shape x="0" y="0">
+<Star width="10" height="10" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFD891"/>
+</Fill>
+</Shape>
+</Node>
+<Node name="Sugar spark 6">
+<DataBindContext sourcePathIds="0:40-0:1087" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1088" propertyKey="14"/>
+<DataBindContext sourcePathIds="0:40-0:1089" propertyKey="18"/>
+<Shape x="0" y="0">
+<Star width="6" height="6" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFEAB8F9"/>
+</Fill>
+</Shape>
+</Node>
+<Node name="Sugar spark 7">
+<DataBindContext sourcePathIds="0:40-0:1090" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1091" propertyKey="14"/>
+<DataBindContext sourcePathIds="0:40-0:1092" propertyKey="18"/>
+<Shape x="0" y="0">
+<Star width="8" height="8" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFD891"/>
+</Fill>
+</Shape>
+</Node>
+<Node name="Sugar spark 8">
+<DataBindContext sourcePathIds="0:40-0:1093" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1094" propertyKey="14"/>
+<DataBindContext sourcePathIds="0:40-0:1095" propertyKey="18"/>
+<Shape x="0" y="0">
+<Star width="10" height="10" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFD891"/>
+</Fill>
+</Shape>
+</Node>
+<Node name="Sugar spark 9">
+<DataBindContext sourcePathIds="0:40-0:1096" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1097" propertyKey="14"/>
+<DataBindContext sourcePathIds="0:40-0:1098" propertyKey="18"/>
+<Shape x="0" y="0">
+<Star width="6" height="6" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFEAB8F9"/>
+</Fill>
+</Shape>
+</Node>
+<Node name="Sugar spark 10">
+<DataBindContext sourcePathIds="0:40-0:1099" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1100" propertyKey="14"/>
+<DataBindContext sourcePathIds="0:40-0:1101" propertyKey="18"/>
+<Shape x="0" y="0">
+<Star width="8" height="8" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFD891"/>
+</Fill>
+</Shape>
+</Node>
+<Node name="Sugar spark 11">
+<DataBindContext sourcePathIds="0:40-0:1102" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1103" propertyKey="14"/>
+<DataBindContext sourcePathIds="0:40-0:1104" propertyKey="18"/>
+<Shape x="0" y="0">
+<Star width="10" height="10" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFD891"/>
+</Fill>
+</Shape>
+</Node>
+<Node name="Fresh batch">
+<DataBindContext sourcePathIds="0:40-0:1044" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1045" propertyKey="14"/>
+<DataBindContext sourcePathIds="0:40-0:1046" propertyKey="16"/>
+<DataBindContext sourcePathIds="0:40-0:1047" propertyKey="17"/>
+<DataBindContext sourcePathIds="0:40-0:1048" propertyKey="18"/>
+<Node name="Pumpkin batch">
+<DataBindContext sourcePathIds="0:40-0:1049" propertyKey="18"/>
+<Shape name="Pumpkin grin" >
+<PointsPath isClosed="true">
+<StraightVertex x="-20" y="7" radius="0"/>
+<StraightVertex x="-8" y="13" radius="0"/>
+<StraightVertex x="0" y="8" radius="0"/>
+<StraightVertex x="8" y="13" radius="0"/>
+<StraightVertex x="20" y="7" radius="0"/>
+<StraightVertex x="13" y="22" radius="0"/>
+<StraightVertex x="-12" y="22" radius="0"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FF482338"/>
+</Fill>
+</Shape>
+<Shape name="Pumpkin left eye" >
+<PointsPath isClosed="true">
+<StraightVertex x="-23" y="-13" radius="0"/>
+<StraightVertex x="-8" y="-9" radius="0"/>
+<StraightVertex x="-17" y="-2" radius="0"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FF482338"/>
+</Fill>
+</Shape>
+<Shape name="Pumpkin right eye" >
+<PointsPath isClosed="true">
+<StraightVertex x="8" y="-9" radius="0"/>
+<StraightVertex x="23" y="-13" radius="0"/>
+<StraightVertex x="17" y="-2" radius="0"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FF482338"/>
+</Fill>
+</Shape>
+<Shape name="Pumpkin stem" x="-4" y="-41" >
+<Rectangle width="9" height="18" originX="0" originY="0" cornerRadiusTL="3"/>
+<Fill>
+<SolidColor colorValue="FF9CB46C"/>
+</Fill>
+</Shape>
+<Shape name="Pumpkin stripe" x="0" y="0" >
+<Ellipse width="37" height="65" originX="0.5" originY="0.5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="36">
+<GradientStop colorValue="FFFFCB68" position="0"/>
+<GradientStop colorValue="FFEB813A" position="1"/>
+</LinearGradient>
+</Fill>
+</Shape>
+<Shape name="Pumpkin body" x="0" y="0" >
+<Ellipse width="79" height="61" originX="0.5" originY="0.5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="36">
+<GradientStop colorValue="FFFFAF54" position="0"/>
+<GradientStop colorValue="FFD65838" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFF9C17F"/>
+</Stroke>
+</Shape>
+</Node>
+<Node name="Watching batch">
+<DataBindContext sourcePathIds="0:40-0:1050" propertyKey="18"/>
+<Node name="Eye Candy 0" x="0" y="0" rotation="0">
+<Node name="Gaze">
+<DataBindContext sourcePathIds="0:40-0:1009" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1010" propertyKey="14"/>
+<Shape name="Spark" x="-3" y="-4" >
+<Ellipse width="4" height="4" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFFFFF"/>
+</Fill>
+</Shape>
+<Shape name="Pupil" x="0" y="0" >
+<Ellipse width="8" height="17" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF1D102A"/>
+</Fill>
+</Shape>
+<Shape name="Iris" x="0" y="0" >
+<Ellipse width="24" height="27" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFD999ED"/>
+</Fill>
+</Shape>
+</Node>
+<Shape name="Mallow" x="0" y="0" >
+<Ellipse width="51" height="39" originX="0.5" originY="0.5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="30">
+<GradientStop colorValue="FFFFF1DA" position="0"/>
+<GradientStop colorValue="FFC69FC4" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFDDB7B0"/>
+</Stroke>
+</Shape>
+</Node>
+</Node>
+<Node name="Memory batch">
+<DataBindContext sourcePathIds="0:40-0:1051" propertyKey="18"/>
+<Shape name="Ghost eye left" x="-12" y="-5" >
+<Ellipse width="5" height="10" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF3F2751"/>
+</Fill>
+</Shape>
+<Shape name="Ghost eye right" x="12" y="-5" >
+<Ellipse width="5" height="10" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF3F2751"/>
+</Fill>
+</Shape>
+<Shape name="Ghost smile" x="0" y="12" >
+<Ellipse width="9" height="9" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFAE75A0"/>
+</Fill>
+</Shape>
+<Shape name="Ghost cheek left" x="-21" y="6" >
+<Ellipse width="10" height="5" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="66D591BE"/>
+</Fill>
+</Shape>
+<Shape name="Ghost cheek right" x="21" y="6" >
+<Ellipse width="10" height="5" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="66D591BE"/>
+</Fill>
+</Shape>
+<Shape name="Ghost body" >
+<PointsPath isClosed="true">
+<StraightVertex x="-31" y="30" radius="7"/>
+<StraightVertex x="-32" y="-14" radius="20"/>
+<StraightVertex x="-17" y="-37" radius="13"/>
+<StraightVertex x="14" y="-38" radius="15"/>
+<StraightVertex x="32" y="-14" radius="18"/>
+<StraightVertex x="35" y="32" radius="5"/>
+<StraightVertex x="20" y="22" radius="3"/>
+<StraightVertex x="5" y="33" radius="3"/>
+<StraightVertex x="-8" y="23" radius="3"/>
+<StraightVertex x="-20" y="32" radius="3"/>
+</PointsPath>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="35">
+<GradientStop colorValue="FFFFF3E6" position="0"/>
+<GradientStop colorValue="FFB6C4EC" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFF5DCFE"/>
+</Stroke>
+</Shape>
+</Node>
+<Shape x="-50" y="-24">
+<Star width="10" height="10" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFD788"/>
+</Fill>
+</Shape>
+<Shape x="48" y="14">
+<Star width="10" height="10" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFD788"/>
+</Fill>
+</Shape>
+<Shape x="35" y="-43">
+<Star width="10" height="10" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFD788"/>
+</Fill>
+</Shape>
+<Shape x="-27" y="42">
+<Star width="10" height="10" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFD788"/>
+</Fill>
+</Shape>
+</Node>
+<Text name="Pot label" x="810" y="647" sizingValue="autoWidth" originX="0.5">
+<TextStylePaint id="0:1135" fontAssetId="0:90" fontSize="22" lineHeight="28.6">
+<Fill>
+<SolidColor colorValue="FFFFCB76"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1135" text="MIDNIGHT">
+</TextValueRun>
+</Text>
+<Text name="Pot small label" x="810" y="681" sizingValue="autoWidth" originX="0.5">
+<TextStylePaint id="0:1136" fontAssetId="0:91" fontSize="10" lineHeight="13">
+<Fill>
+<SolidColor colorValue="FFDB9D6A"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1136" text="CONFECTIONS">
+</TextValueRun>
+</Text>
+<Shape name="Pot medallion" x="810" y="671" >
+<Ellipse width="119" height="95" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF39223C"/>
+</Fill>
+<Stroke thickness="3" cap="round" join="round">
+<SolidColor colorValue="FFB37B48"/>
+</Stroke>
+</Shape>
+<Shape name="Brass rim front" x="810" y="566" >
+<Ellipse width="413" height="119" originX="0.5" originY="0.5"/>
+<Stroke thickness="9" cap="round" join="round">
+<SolidColor colorValue="FFFFC167"/>
+</Stroke>
+</Shape>
+<Node name="Stirring ladle">
+<DataBindContext sourcePathIds="0:40-0:1041" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1042" propertyKey="14"/>
+<DataBindContext sourcePathIds="0:40-0:1043" propertyKey="15"/>
+<Shape name="Hand holding ladle" x="0" y="-131" >
+<Ellipse width="23" height="29" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFF5BB8C"/>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFB97867"/>
+</Stroke>
+</Shape>
+<Shape name="Ladle tip" x="0" y="4" >
+<Ellipse width="29" height="14" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFAC96D"/>
+</Fill>
+</Shape>
+<Shape name="Ladle handle" x="-6" y="-189" >
+<Rectangle width="12" height="193" originX="0" originY="0" cornerRadiusTL="5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="190">
+<GradientStop colorValue="FFFFD288" position="0"/>
+<GradientStop colorValue="FF946147" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFB98458"/>
+</Stroke>
+</Shape>
+<Shape name="Handle jewel" x="0" y="-185" >
+<Ellipse width="22" height="25" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFDAA25B"/>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFFFD592"/>
+</Stroke>
+</Shape>
+<Shape x="0" y="-185">
+<Star width="16" height="16" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFD788"/>
+</Fill>
+</Shape>
+</Node>
+<Node name="Syrup swirl" x="810" y="552">
+<DataBindContext sourcePathIds="0:40-0:1011" propertyKey="15"/>
+<Shape name="Golden swirl" x="0" y="0" >
+<Ellipse width="255" height="58" originX="0.5" originY="0.5"/>
+<Stroke thickness="5" cap="round" join="round">
+<SolidColor colorValue="FFFFEB99"/>
+</Stroke>
+</Shape>
+<Shape name="Inner swirl" x="20" y="0" >
+<Ellipse width="157" height="35" originX="0.5" originY="0.5"/>
+<Stroke thickness="4" cap="round" join="round">
+<SolidColor colorValue="FFFFD36B"/>
+</Stroke>
+</Shape>
+<Shape name="Core" x="0" y="0" >
+<Ellipse width="40" height="15" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFE5AE"/>
+</Fill>
+</Shape>
+</Node>
+<Shape name="Hot liquid" x="810" y="554" >
+<Ellipse width="390" height="108" originX="0.5" originY="0.5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="62">
+<GradientStop colorValue="FFFFBD49" position="0"/>
+<GradientStop colorValue="FFE97135" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="3" cap="round" join="round">
+<SolidColor colorValue="FFFFD57D"/>
+</Stroke>
+</Shape>
+<Shape name="Rim shadow" x="810" y="565" >
+<Ellipse width="422" height="131" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF452437"/>
+</Fill>
+<Stroke thickness="7" cap="round" join="round">
+<SolidColor colorValue="FFCA8E50"/>
+</Stroke>
+</Shape>
+<Shape name="Pot body" x="619" y="551" >
+<Rectangle width="382" height="197" originX="0" originY="0" cornerRadiusTL="87"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="195">
+<GradientStop colorValue="FF875535" position="0"/>
+<GradientStop colorValue="FF342238" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="4" cap="round" join="round">
+<SolidColor colorValue="FFBC7F4D"/>
+</Stroke>
+</Shape>
+<Shape name="Handle left" x="610" y="625" >
+<Ellipse width="68" height="69" originX="0.5" originY="0.5"/>
+<Stroke thickness="12" cap="round" join="round">
+<SolidColor colorValue="FFB57B48"/>
+</Stroke>
+</Shape>
+<Shape name="Handle right" x="1010" y="625" >
+<Ellipse width="68" height="69" originX="0.5" originY="0.5"/>
+<Stroke thickness="12" cap="round" join="round">
+<SolidColor colorValue="FFB57B48"/>
+</Stroke>
+</Shape>
+<Shape name="Foot left" >
+<PointsPath isClosed="true">
+<StraightVertex x="660" y="730" radius="0"/>
+<StraightVertex x="709" y="730" radius="0"/>
+<StraightVertex x="691" y="768" radius="0"/>
+<StraightVertex x="644" y="768" radius="0"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FF402838"/>
+</Fill>
+<Stroke thickness="3" cap="round" join="round">
+<SolidColor colorValue="FFA97646"/>
+</Stroke>
+</Shape>
+<Shape name="Foot right" >
+<PointsPath isClosed="true">
+<StraightVertex x="911" y="730" radius="0"/>
+<StraightVertex x="955" y="730" radius="0"/>
+<StraightVertex x="975" y="768" radius="0"/>
+<StraightVertex x="930" y="768" radius="0"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FF402838"/>
+</Fill>
+<Stroke thickness="3" cap="round" join="round">
+<SolidColor colorValue="FFA97646"/>
+</Stroke>
+</Shape>
+<Node name="Black cat" x="460" y="661">
+<Shape name="Glint left" x="-14" y="-35" >
+<Ellipse width="4" height="4" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFF4BC"/>
+</Fill>
+</Shape>
+<Shape name="Glint right" x="20" y="-35" >
+<Ellipse width="4" height="4" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFF4BC"/>
+</Fill>
+</Shape>
+<Shape name="Pupil left" x="-12" y="-33" >
+<Ellipse width="5" height="19" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF161322"/>
+</Fill>
+</Shape>
+<Shape name="Pupil right" x="22" y="-33" >
+<Ellipse width="5" height="19" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF161322"/>
+</Fill>
+</Shape>
+<Shape name="Eye left" x="-12" y="-33" >
+<Ellipse width="21" height="21" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFBE4F"/>
+</Fill>
+</Shape>
+<Shape name="Eye right" x="22" y="-33" >
+<Ellipse width="21" height="21" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFBE4F"/>
+</Fill>
+</Shape>
+<Shape name="Nose" >
+<PointsPath isClosed="true">
+<StraightVertex x="2" y="-18" radius="0"/>
+<StraightVertex x="11" y="-18" radius="0"/>
+<StraightVertex x="7" y="-12" radius="0"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FFD9969E"/>
+</Fill>
+</Shape>
+<Shape name="Ear L" >
+<PointsPath isClosed="true">
+<StraightVertex x="-41" y="-43" radius="0"/>
+<StraightVertex x="-43" y="-91" radius="0"/>
+<StraightVertex x="-11" y="-59" radius="0"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FF1B1728"/>
+</Fill>
+<Stroke thickness="3" cap="round" join="round">
+<SolidColor colorValue="FF513448"/>
+</Stroke>
+</Shape>
+<Shape name="Ear R" >
+<PointsPath isClosed="true">
+<StraightVertex x="26" y="-57" radius="0"/>
+<StraightVertex x="53" y="-90" radius="0"/>
+<StraightVertex x="48" y="-30" radius="0"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FF1B1728"/>
+</Fill>
+<Stroke thickness="3" cap="round" join="round">
+<SolidColor colorValue="FF513448"/>
+</Stroke>
+</Shape>
+<Shape name="Head" x="4" y="-32" >
+<Ellipse width="96" height="80" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF211A2C"/>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FF60404F"/>
+</Stroke>
+</Shape>
+<Shape name="Scarf" >
+<PointsPath isClosed="true">
+<StraightVertex x="-31" y="8" radius="0"/>
+<StraightVertex x="40" y="8" radius="0"/>
+<StraightVertex x="12" y="31" radius="0"/>
+<StraightVertex x="-11" y="22" radius="0"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FFFFB84E"/>
+</Fill>
+</Shape>
+<Shape name="Body" x="5" y="53" >
+<Ellipse width="83" height="117" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF211A2C"/>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FF60404F"/>
+</Stroke>
+</Shape>
+<Shape name="Paw" x="-21" y="102" >
+<Ellipse width="45" height="19" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF372139"/>
+</Fill>
+</Shape>
+<Shape name="Paw" x="30" y="102" >
+<Ellipse width="40" height="19" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF372139"/>
+</Fill>
+</Shape>
+<Node name="Swaying tail" x="40" y="92">
+<DataBindContext sourcePathIds="0:40-0:1016" propertyKey="15"/>
+<Shape name="Tail" x="29" y="-40" >
+<Ellipse width="56" height="91" originX="0.5" originY="0.5"/>
+<Stroke thickness="18" cap="round" join="round">
+<SolidColor colorValue="FF362238"/>
+</Stroke>
+</Shape>
+</Node>
+</Node>
+<Node name="Mira" x="529">
+<DataBindContext sourcePathIds="0:40-0:1015" propertyKey="14"/>
+<Node name="Hat">
+<Shape name="Buckle hollow" x="-5" y="-94" >
+<Rectangle width="22" height="15" originX="0" originY="0" cornerRadiusTL="2"/>
+<Fill>
+<SolidColor colorValue="FF49334D"/>
+</Fill>
+</Shape>
+<Shape name="Hat buckle" x="-13" y="-102" >
+<Rectangle width="39" height="31" originX="0" originY="0" cornerRadiusTL="5"/>
+<Fill>
+<SolidColor colorValue="FFE7B265"/>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFFFD793"/>
+</Stroke>
+</Shape>
+<Shape x="-49" y="-105">
+<Star width="18" height="18" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFD788"/>
+</Fill>
+</Shape>
+<Shape x="44" y="-139">
+<Star width="10" height="10" points="4" innerRadius="0.2" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFD788"/>
+</Fill>
+</Shape>
+<Shape name="Hat pearl" x="-61" y="-117" >
+<Ellipse width="7" height="7" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFE0B377"/>
+</Fill>
+</Shape>
+<Shape name="Silk hatband" >
+<PointsPath isClosed="true">
+<StraightVertex x="-83" y="-113" radius="4"/>
+<StraightVertex x="66" y="-112" radius="5"/>
+<StraightVertex x="79" y="-77" radius="0"/>
+<StraightVertex x="-91" y="-77" radius="0"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FFA26371"/>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFCB8690"/>
+</Stroke>
+</Shape>
+<Shape name="Hat seam">
+<PointsPath isClosed="false">
+<StraightVertex x="-63" y="-123" radius="0"/>
+<StraightVertex x="-38" y="-190" radius="20"/>
+<StraightVertex x="6" y="-228" radius="15"/>
+<StraightVertex x="48" y="-221" radius="0"/>
+</PointsPath>
+<Stroke thickness="3" cap="round" join="round">
+<SolidColor colorValue="FF876281"/>
+</Stroke>
+</Shape>
+<Shape name="Crooked crown" >
+<PointsPath isClosed="true">
+<StraightVertex x="-89" y="-73" radius="12"/>
+<StraightVertex x="-44" y="-203" radius="17"/>
+<StraightVertex x="16" y="-250" radius="8"/>
+<StraightVertex x="82" y="-224" radius="4"/>
+<StraightVertex x="107" y="-191" radius="3"/>
+<StraightVertex x="59" y="-208" radius="12"/>
+<StraightVertex x="26" y="-198" radius="10"/>
+<StraightVertex x="39" y="-129" radius="9"/>
+<StraightVertex x="85" y="-73" radius="10"/>
+</PointsPath>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="90">
+<GradientStop colorValue="FF4B3057" position="0"/>
+<GradientStop colorValue="FF241D35" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="3" cap="round" join="round">
+<SolidColor colorValue="FFAE7688"/>
+</Stroke>
+</Shape>
+<Shape name="Hat brim highlight" x="-4" y="-66" >
+<Ellipse width="250" height="49" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF50304B"/>
+</Fill>
+<Stroke thickness="3" cap="round" join="round">
+<SolidColor colorValue="FFDB9D85"/>
+</Stroke>
+</Shape>
+<Shape name="Hat brim shadow" x="-1" y="-57" >
+<Ellipse width="239" height="39" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF291E37"/>
+</Fill>
+</Shape>
+</Node>
+<Shape name="Swept fringe" >
+<PointsPath isClosed="true">
+<StraightVertex x="-55" y="-57" radius="13"/>
+<StraightVertex x="-8" y="-74" radius="13"/>
+<StraightVertex x="45" y="-55" radius="10"/>
+<StraightVertex x="15" y="-47" radius="8"/>
+<StraightVertex x="-9" y="-26" radius="9"/>
+<StraightVertex x="-19" y="-45" radius="7"/>
+<StraightVertex x="-45" y="-14" radius="7"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FF794257"/>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFB66E76"/>
+</Stroke>
+</Shape>
+<Node name="Mira blinking eyes">
+<DataBindContext sourcePathIds="0:40-0:1040" propertyKey="17"/>
+<Shape name="Eye sparkle left" x="-18" y="-22" >
+<Ellipse width="4" height="5" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFF7E6"/>
+</Fill>
+</Shape>
+<Shape name="Eye sparkle right" x="28" y="-21" >
+<Ellipse width="4" height="5" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFF7E6"/>
+</Fill>
+</Shape>
+<Shape name="Iris left" x="-16" y="-18" >
+<Ellipse width="8" height="16" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF5E3040"/>
+</Fill>
+</Shape>
+<Shape name="Iris right" x="30" y="-17" >
+<Ellipse width="8" height="16" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF5E3040"/>
+</Fill>
+</Shape>
+<Shape name="Eye left" x="-17" y="-19" >
+<Ellipse width="17" height="21" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFEBCB"/>
+</Fill>
+</Shape>
+<Shape name="Eye right" x="29" y="-18" >
+<Ellipse width="17" height="21" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFEBCB"/>
+</Fill>
+</Shape>
+<Shape name="Lash left">
+<PointsPath isClosed="false">
+<StraightVertex x="-30" y="-28" radius="0"/>
+<StraightVertex x="-26" y="-31" radius="0"/>
+<StraightVertex x="-11" y="-31" radius="6"/>
+<StraightVertex x="-7" y="-26" radius="0"/>
+</PointsPath>
+<Stroke thickness="3" cap="round" join="round">
+<SolidColor colorValue="FF4D273B"/>
+</Stroke>
+</Shape>
+<Shape name="Lash right">
+<PointsPath isClosed="false">
+<StraightVertex x="17" y="-26" radius="0"/>
+<StraightVertex x="21" y="-30" radius="0"/>
+<StraightVertex x="34" y="-29" radius="5"/>
+<StraightVertex x="40" y="-26" radius="0"/>
+</PointsPath>
+<Stroke thickness="3" cap="round" join="round">
+<SolidColor colorValue="FF4D273B"/>
+</Stroke>
+</Shape>
+</Node>
+<Shape name="Knowing smile">
+<PointsPath isClosed="false">
+<StraightVertex x="-5" y="16" radius="0"/>
+<StraightVertex x="4" y="21" radius="7"/>
+<StraightVertex x="15" y="16" radius="0"/>
+</PointsPath>
+<Stroke thickness="3" cap="round" join="round">
+<SolidColor colorValue="FF9F4F5D"/>
+</Stroke>
+</Shape>
+<Shape name="Nose">
+<PointsPath isClosed="false">
+<StraightVertex x="7" y="-7" radius="0"/>
+<StraightVertex x="12" y="3" radius="0"/>
+<StraightVertex x="7" y="5" radius="0"/>
+</PointsPath>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFC7836C"/>
+</Stroke>
+</Shape>
+<Shape name="Blush left" x="-32" y="3" >
+<Ellipse width="24" height="10" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="55D66B75"/>
+</Fill>
+</Shape>
+<Shape name="Blush right" x="41" y="4" >
+<Ellipse width="20" height="10" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="55D66B75"/>
+</Fill>
+</Shape>
+<Shape name="Earring" x="-48" y="19" >
+<Ellipse width="13" height="20" originX="0.5" originY="0.5"/>
+<Stroke thickness="4" cap="round" join="round">
+<SolidColor colorValue="FFFFCB74"/>
+</Stroke>
+</Shape>
+<Shape name="Face" >
+<PointsPath isClosed="true">
+<StraightVertex x="-51" y="-48" radius="16"/>
+<StraightVertex x="-24" y="-66" radius="17"/>
+<StraightVertex x="29" y="-58" radius="17"/>
+<StraightVertex x="53" y="-26" radius="20"/>
+<StraightVertex x="47" y="16" radius="16"/>
+<StraightVertex x="12" y="46" radius="21"/>
+<StraightVertex x="-26" y="30" radius="18"/>
+<StraightVertex x="-49" y="3" radius="15"/>
+</PointsPath>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="60">
+<GradientStop colorValue="FFFFD7A8" position="0"/>
+<GradientStop colorValue="FFECA077" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFD69B82"/>
+</Stroke>
+</Shape>
+<Shape name="Curl highlight left">
+<PointsPath isClosed="false">
+<StraightVertex x="-71" y="-14" radius="0"/>
+<StraightVertex x="-81" y="24" radius="20"/>
+<StraightVertex x="-64" y="68" radius="17"/>
+<StraightVertex x="-84" y="107" radius="16"/>
+<StraightVertex x="-64" y="140" radius="0"/>
+</PointsPath>
+<Stroke thickness="3" cap="round" join="round">
+<SolidColor colorValue="FFA66777"/>
+</Stroke>
+</Shape>
+<Shape name="Curl highlight right">
+<PointsPath isClosed="false">
+<StraightVertex x="68" y="-15" radius="0"/>
+<StraightVertex x="81" y="32" radius="20"/>
+<StraightVertex x="67" y="70" radius="16"/>
+<StraightVertex x="81" y="109" radius="12"/>
+<StraightVertex x="63" y="143" radius="0"/>
+</PointsPath>
+<Stroke thickness="3" cap="round" join="round">
+<SolidColor colorValue="FFAB6D7E"/>
+</Stroke>
+</Shape>
+<Shape name="Long hair left" >
+<PointsPath isClosed="true">
+<StraightVertex x="-52" y="-55" radius="18"/>
+<StraightVertex x="-84" y="-23" radius="24"/>
+<StraightVertex x="-83" y="29" radius="20"/>
+<StraightVertex x="-99" y="76" radius="21"/>
+<StraightVertex x="-80" y="105" radius="12"/>
+<StraightVertex x="-93" y="134" radius="12"/>
+<StraightVertex x="-68" y="170" radius="9"/>
+<StraightVertex x="-45" y="119" radius="20"/>
+<StraightVertex x="-50" y="53" radius="20"/>
+</PointsPath>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="165">
+<GradientStop colorValue="FF814858" position="0"/>
+<GradientStop colorValue="FF40263E" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFAE7781"/>
+</Stroke>
+</Shape>
+<Shape name="Long hair right" >
+<PointsPath isClosed="true">
+<StraightVertex x="40" y="-59" radius="16"/>
+<StraightVertex x="84" y="-17" radius="20"/>
+<StraightVertex x="77" y="36" radius="22"/>
+<StraightVertex x="93" y="79" radius="22"/>
+<StraightVertex x="77" y="106" radius="13"/>
+<StraightVertex x="84" y="134" radius="14"/>
+<StraightVertex x="61" y="165" radius="9"/>
+<StraightVertex x="49" y="104" radius="20"/>
+<StraightVertex x="51" y="38" radius="20"/>
+</PointsPath>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="155">
+<GradientStop colorValue="FF6F3D54" position="0"/>
+<GradientStop colorValue="FF38263D" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FF926474"/>
+</Stroke>
+</Shape>
+<Node name="Raised sleeve" rotation="0.1">
+<Shape name="Forearm">
+<PointsPath isClosed="false">
+<StraightVertex x="53" y="113" radius="0"/>
+<StraightVertex x="98" y="83" radius="13"/>
+<StraightVertex x="141" y="11" radius="0"/>
+</PointsPath>
+<Stroke thickness="22" cap="round" join="round">
+<SolidColor colorValue="FFC68A72"/>
+</Stroke>
+</Shape>
+<Shape name="Forearm light">
+<PointsPath isClosed="false">
+<StraightVertex x="55" y="111" radius="0"/>
+<StraightVertex x="97" y="81" radius="13"/>
+<StraightVertex x="140" y="11" radius="0"/>
+</PointsPath>
+<Stroke thickness="17" cap="round" join="round">
+<SolidColor colorValue="FFF0B58E"/>
+</Stroke>
+</Shape>
+<Shape name="Sleeve puff" x="55" y="90" >
+<Ellipse width="59" height="72" originX="0.5" originY="0.5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="55">
+<GradientStop colorValue="FF604054" position="0"/>
+<GradientStop colorValue="FF302039" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFA4737B"/>
+</Stroke>
+</Shape>
+<Shape name="Ivory cuff" x="57" y="100" >
+<Rectangle width="36" height="15" originX="0" originY="0" cornerRadiusTL="6"/>
+<Fill>
+<SolidColor colorValue="FFE8C2A0"/>
+</Fill>
+</Shape>
+</Node>
+<Shape name="Apron crescent" x="3" y="144" >
+<Ellipse width="34" height="36" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFC08A58"/>
+</Fill>
+</Shape>
+<Shape name="Crescent cutout" x="12" y="136" >
+<Ellipse width="31" height="33" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFF4D2A4"/>
+</Fill>
+</Shape>
+<Shape name="Apron seam">
+<PointsPath isClosed="false">
+<StraightVertex x="-37" y="180" radius="0"/>
+<StraightVertex x="-45" y="221" radius="3"/>
+<StraightVertex x="51" y="221" radius="3"/>
+<StraightVertex x="41" y="180" radius="0"/>
+</PointsPath>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFCF9C76"/>
+</Stroke>
+</Shape>
+<Shape name="Apron pocket" x="-21" y="182" >
+<Rectangle width="43" height="27" originX="0" originY="0" cornerRadiusTL="7"/>
+<Fill>
+<SolidColor colorValue="FFE6B888"/>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFBE8C6C"/>
+</Stroke>
+</Shape>
+<Shape name="Apron" >
+<PointsPath isClosed="true">
+<StraightVertex x="-31" y="83" radius="3"/>
+<StraightVertex x="36" y="83" radius="3"/>
+<StraightVertex x="63" y="235" radius="11"/>
+<StraightVertex x="-66" y="235" radius="11"/>
+</PointsPath>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="230">
+<GradientStop colorValue="FFF4D2A4" position="0"/>
+<GradientStop colorValue="FFD7A983" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="3" cap="round" join="round">
+<SolidColor colorValue="FFF7DBB4"/>
+</Stroke>
+</Shape>
+<Shape name="Collar left" >
+<PointsPath isClosed="true">
+<StraightVertex x="-37" y="56" radius="0"/>
+<StraightVertex x="-5" y="79" radius="0"/>
+<StraightVertex x="-24" y="94" radius="0"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FFE9C8A4"/>
+</Fill>
+</Shape>
+<Shape name="Collar right" >
+<PointsPath isClosed="true">
+<StraightVertex x="35" y="56" radius="0"/>
+<StraightVertex x="-5" y="79" radius="0"/>
+<StraightVertex x="19" y="94" radius="0"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FFE9C8A4"/>
+</Fill>
+</Shape>
+<Shape name="Brooch" x="-3" y="81" >
+<Ellipse width="13" height="15" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFCD78"/>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFB67C5F"/>
+</Stroke>
+</Shape>
+<Shape name="Left puff sleeve" x="-48" y="99" >
+<Ellipse width="59" height="72" originX="0.5" originY="0.5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="55">
+<GradientStop colorValue="FF624258" position="0"/>
+<GradientStop colorValue="FF332239" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FF9C6E7C"/>
+</Stroke>
+</Shape>
+<Shape name="Dress" >
+<PointsPath isClosed="true">
+<StraightVertex x="-45" y="52" radius="8"/>
+<StraightVertex x="47" y="51" radius="9"/>
+<StraightVertex x="83" y="153" radius="18"/>
+<StraightVertex x="103" y="253" radius="8"/>
+<StraightVertex x="-105" y="253" radius="8"/>
+<StraightVertex x="-78" y="153" radius="18"/>
+</PointsPath>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="253">
+<GradientStop colorValue="FF49304C" position="0"/>
+<GradientStop colorValue="FF211B30" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="3" cap="round" join="round">
+<SolidColor colorValue="FFA87885"/>
+</Stroke>
+</Shape>
+<Shape name="Hair shadow" x="0" y="27" >
+<Ellipse width="175" height="224" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF392238"/>
+</Fill>
+</Shape>
+</Node>
+<Node name="Eye Candy 0" x="578" y="780" rotation="0">
+<DataBindContext sourcePathIds="0:40-0:1058" propertyKey="13"/>
+<Node name="Gaze">
+<DataBindContext sourcePathIds="0:40-0:1009" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1010" propertyKey="14"/>
+<Shape name="Spark" x="-3" y="-4" >
+<Ellipse width="4" height="4" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFFFFF"/>
+</Fill>
+</Shape>
+<Shape name="Pupil" x="0" y="0" >
+<Ellipse width="8" height="17" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF1D102A"/>
+</Fill>
+</Shape>
+<Shape name="Iris" x="0" y="0" >
+<Ellipse width="24" height="27" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFD999ED"/>
+</Fill>
+</Shape>
+</Node>
+<Shape name="Mallow" x="0" y="0" >
+<Ellipse width="51" height="39" originX="0.5" originY="0.5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="30">
+<GradientStop colorValue="FFFFF1DA" position="0"/>
+<GradientStop colorValue="FFC69FC4" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFDDB7B0"/>
+</Stroke>
+</Shape>
+</Node>
+<Node name="Eye Candy 1" x="626" y="783.3658839392316" rotation="0.11780593787310552">
+<DataBindContext sourcePathIds="0:40-0:1059" propertyKey="13"/>
+<Node name="Gaze">
+<DataBindContext sourcePathIds="0:40-0:1009" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1010" propertyKey="14"/>
+<Shape name="Spark" x="-3" y="-4" >
+<Ellipse width="4" height="4" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFFFFF"/>
+</Fill>
+</Shape>
+<Shape name="Pupil" x="0" y="0" >
+<Ellipse width="8" height="17" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF1D102A"/>
+</Fill>
+</Shape>
+<Shape name="Iris" x="0" y="0" >
+<Ellipse width="24" height="27" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFB3D469"/>
+</Fill>
+</Shape>
+</Node>
+<Shape name="Mallow" x="0" y="0" >
+<Ellipse width="51" height="39" originX="0.5" originY="0.5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="30">
+<GradientStop colorValue="FFFFF1DA" position="0"/>
+<GradientStop colorValue="FFC69FC4" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFDDB7B0"/>
+</Stroke>
+</Shape>
+</Node>
+<Node name="Eye Candy 2" x="674" y="783.6371897073027" rotation="0.12730163975559544">
+<DataBindContext sourcePathIds="0:40-0:1060" propertyKey="13"/>
+<Node name="Gaze">
+<DataBindContext sourcePathIds="0:40-0:1009" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1010" propertyKey="14"/>
+<Shape name="Spark" x="-3" y="-4" >
+<Ellipse width="4" height="4" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFFFFF"/>
+</Fill>
+</Shape>
+<Shape name="Pupil" x="0" y="0" >
+<Ellipse width="8" height="17" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF1D102A"/>
+</Fill>
+</Shape>
+<Shape name="Iris" x="0" y="0" >
+<Ellipse width="24" height="27" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFD999ED"/>
+</Fill>
+</Shape>
+</Node>
+<Shape name="Mallow" x="0" y="0" >
+<Ellipse width="51" height="39" originX="0.5" originY="0.5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="30">
+<GradientStop colorValue="FFFFF1DA" position="0"/>
+<GradientStop colorValue="FFC69FC4" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFDDB7B0"/>
+</Stroke>
+</Shape>
+</Node>
+<Node name="Eye Candy 3" x="722" y="780.5644800322394" rotation="0.01975680112838141">
+<DataBindContext sourcePathIds="0:40-0:1061" propertyKey="13"/>
+<Node name="Gaze">
+<DataBindContext sourcePathIds="0:40-0:1009" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1010" propertyKey="14"/>
+<Shape name="Spark" x="-3" y="-4" >
+<Ellipse width="4" height="4" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFFFFF"/>
+</Fill>
+</Shape>
+<Shape name="Pupil" x="0" y="0" >
+<Ellipse width="8" height="17" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF1D102A"/>
+</Fill>
+</Shape>
+<Shape name="Iris" x="0" y="0" >
+<Ellipse width="24" height="27" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFB3D469"/>
+</Fill>
+</Shape>
+</Node>
+<Shape name="Mallow" x="0" y="0" >
+<Ellipse width="51" height="39" originX="0.5" originY="0.5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="30">
+<GradientStop colorValue="FFFFF1DA" position="0"/>
+<GradientStop colorValue="FFC69FC4" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFDDB7B0"/>
+</Stroke>
+</Shape>
+</Node>
+<Node name="Eye Candy 4" x="770" y="776.9727900187683" rotation="-0.10595234934310996">
+<DataBindContext sourcePathIds="0:40-0:1062" propertyKey="13"/>
+<Node name="Gaze">
+<DataBindContext sourcePathIds="0:40-0:1009" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1010" propertyKey="14"/>
+<Shape name="Spark" x="-3" y="-4" >
+<Ellipse width="4" height="4" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFFFFF"/>
+</Fill>
+</Shape>
+<Shape name="Pupil" x="0" y="0" >
+<Ellipse width="8" height="17" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF1D102A"/>
+</Fill>
+</Shape>
+<Shape name="Iris" x="0" y="0" >
+<Ellipse width="24" height="27" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFD999ED"/>
+</Fill>
+</Shape>
+</Node>
+<Shape name="Mallow" x="0" y="0" >
+<Ellipse width="51" height="39" originX="0.5" originY="0.5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="30">
+<GradientStop colorValue="FFFFF1DA" position="0"/>
+<GradientStop colorValue="FFC69FC4" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFDDB7B0"/>
+</Stroke>
+</Shape>
+</Node>
+<Node name="Eye Candy 5" x="818" y="776.1643029013475" rotation="-0.1342493984528394">
+<DataBindContext sourcePathIds="0:40-0:1063" propertyKey="13"/>
+<Node name="Gaze">
+<DataBindContext sourcePathIds="0:40-0:1009" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1010" propertyKey="14"/>
+<Shape name="Spark" x="-3" y="-4" >
+<Ellipse width="4" height="4" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFFFFF"/>
+</Fill>
+</Shape>
+<Shape name="Pupil" x="0" y="0" >
+<Ellipse width="8" height="17" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF1D102A"/>
+</Fill>
+</Shape>
+<Shape name="Iris" x="0" y="0" >
+<Ellipse width="24" height="27" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFB3D469"/>
+</Fill>
+</Shape>
+</Node>
+<Shape name="Mallow" x="0" y="0" >
+<Ellipse width="51" height="39" originX="0.5" originY="0.5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="30">
+<GradientStop colorValue="FFFFF1DA" position="0"/>
+<GradientStop colorValue="FFC69FC4" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFDDB7B0"/>
+</Stroke>
+</Shape>
+</Node>
+<Node name="Eye Candy 6" x="866" y="778.8823380072043" rotation="-0.039118169747849624">
+<DataBindContext sourcePathIds="0:40-0:1064" propertyKey="13"/>
+<Node name="Gaze">
+<DataBindContext sourcePathIds="0:40-0:1009" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1010" propertyKey="14"/>
+<Shape name="Spark" x="-3" y="-4" >
+<Ellipse width="4" height="4" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFFFFF"/>
+</Fill>
+</Shape>
+<Shape name="Pupil" x="0" y="0" >
+<Ellipse width="8" height="17" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF1D102A"/>
+</Fill>
+</Shape>
+<Shape name="Iris" x="0" y="0" >
+<Ellipse width="24" height="27" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFD999ED"/>
+</Fill>
+</Shape>
+</Node>
+<Shape name="Mallow" x="0" y="0" >
+<Ellipse width="51" height="39" originX="0.5" originY="0.5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="30">
+<GradientStop colorValue="FFFFF1DA" position="0"/>
+<GradientStop colorValue="FFC69FC4" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFDDB7B0"/>
+</Stroke>
+</Shape>
+</Node>
+<Node name="Eye Candy 7" x="914" y="782.6279463948752" rotation="0.09197812382063048">
+<DataBindContext sourcePathIds="0:40-0:1065" propertyKey="13"/>
+<Node name="Gaze">
+<DataBindContext sourcePathIds="0:40-0:1009" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1010" propertyKey="14"/>
+<Shape name="Spark" x="-3" y="-4" >
+<Ellipse width="4" height="4" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFFFFF"/>
+</Fill>
+</Shape>
+<Shape name="Pupil" x="0" y="0" >
+<Ellipse width="8" height="17" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF1D102A"/>
+</Fill>
+</Shape>
+<Shape name="Iris" x="0" y="0" >
+<Ellipse width="24" height="27" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFB3D469"/>
+</Fill>
+</Shape>
+</Node>
+<Shape name="Mallow" x="0" y="0" >
+<Ellipse width="51" height="39" originX="0.5" originY="0.5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="30">
+<GradientStop colorValue="FFFFF1DA" position="0"/>
+<GradientStop colorValue="FFC69FC4" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFDDB7B0"/>
+</Stroke>
+</Shape>
+</Node>
+<Node name="Eye Candy 8" x="962" y="783.9574329864935" rotation="0.13851015452727347">
+<DataBindContext sourcePathIds="0:40-0:1066" propertyKey="13"/>
+<Node name="Gaze">
+<DataBindContext sourcePathIds="0:40-0:1009" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1010" propertyKey="14"/>
+<Shape name="Spark" x="-3" y="-4" >
+<Ellipse width="4" height="4" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFFFFF"/>
+</Fill>
+</Shape>
+<Shape name="Pupil" x="0" y="0" >
+<Ellipse width="8" height="17" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF1D102A"/>
+</Fill>
+</Shape>
+<Shape name="Iris" x="0" y="0" >
+<Ellipse width="24" height="27" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFD999ED"/>
+</Fill>
+</Shape>
+</Node>
+<Shape name="Mallow" x="0" y="0" >
+<Ellipse width="51" height="39" originX="0.5" originY="0.5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="30">
+<GradientStop colorValue="FFFFF1DA" position="0"/>
+<GradientStop colorValue="FFC69FC4" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFDDB7B0"/>
+</Stroke>
+</Shape>
+</Node>
+<Node name="Eye Candy 9" x="1010" y="781.648473940967" rotation="0.05769658793384593">
+<DataBindContext sourcePathIds="0:40-0:1067" propertyKey="13"/>
+<Node name="Gaze">
+<DataBindContext sourcePathIds="0:40-0:1009" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1010" propertyKey="14"/>
+<Shape name="Spark" x="-3" y="-4" >
+<Ellipse width="4" height="4" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFFFFF"/>
+</Fill>
+</Shape>
+<Shape name="Pupil" x="0" y="0" >
+<Ellipse width="8" height="17" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF1D102A"/>
+</Fill>
+</Shape>
+<Shape name="Iris" x="0" y="0" >
+<Ellipse width="24" height="27" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFB3D469"/>
+</Fill>
+</Shape>
+</Node>
+<Shape name="Mallow" x="0" y="0" >
+<Ellipse width="51" height="39" originX="0.5" originY="0.5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="30">
+<GradientStop colorValue="FFFFF1DA" position="0"/>
+<GradientStop colorValue="FFC69FC4" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFDDB7B0"/>
+</Stroke>
+</Shape>
+</Node>
+<Node name="Eye Candy 10" x="1058" y="777.8239155564426" rotation="-0.07616295552451177">
+<DataBindContext sourcePathIds="0:40-0:1068" propertyKey="13"/>
+<Node name="Gaze">
+<DataBindContext sourcePathIds="0:40-0:1009" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:1010" propertyKey="14"/>
+<Shape name="Spark" x="-3" y="-4" >
+<Ellipse width="4" height="4" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFFFFFFF"/>
+</Fill>
+</Shape>
+<Shape name="Pupil" x="0" y="0" >
+<Ellipse width="8" height="17" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF1D102A"/>
+</Fill>
+</Shape>
+<Shape name="Iris" x="0" y="0" >
+<Ellipse width="24" height="27" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFD999ED"/>
+</Fill>
+</Shape>
+</Node>
+<Shape name="Mallow" x="0" y="0" >
+<Ellipse width="51" height="39" originX="0.5" originY="0.5"/>
+<Fill>
+<LinearGradient startX="0" startY="0" endX="0" endY="30">
+<GradientStop colorValue="FFFFF1DA" position="0"/>
+<GradientStop colorValue="FFC69FC4" position="1"/>
+</LinearGradient>
+</Fill>
+<Stroke thickness="2" cap="round" join="round">
+<SolidColor colorValue="FFDDB7B0"/>
+</Stroke>
+</Shape>
+</Node>
+<Shape name="Conveyor edge" x="526" y="801" >
+<Rectangle width="573" height="8" originX="0" originY="0" cornerRadiusTL="4"/>
+<Fill>
+<SolidColor colorValue="FFB88058"/>
+</Fill>
+</Shape>
+<Shape name="Conveyor" x="506" y="759" >
+<Rectangle width="608" height="43" originX="0" originY="0" cornerRadiusTL="20"/>
+<Fill>
+<SolidColor colorValue="FF432C41"/>
+</Fill>
+<Stroke thickness="3" cap="round" join="round">
+<SolidColor colorValue="FFB58660"/>
+</Stroke>
+</Shape>
+<Shape name="Dawn" x="0" y="0">
+<DataBindContext sourcePathIds="0:40-0:1014" propertyKey="18"/>
+<Rectangle width="1600" height="900" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FFD0A8B7"/>
+</Fill>
+</Shape>
+<Shape name="Title vignette" x="38" y="26" >
+<Rectangle width="372" height="151" originX="0" originY="0" cornerRadiusTL="23"/>
+<Fill>
+<SolidColor colorValue="BE211529"/>
+</Fill>
+</Shape>
+<Image name="Painted workshop" assetId="0:92" originX="0" originY="0" scaleX="0.9569378" scaleY="0.9564293"/>
+<StateMachine name="Factory Story" id="0:7">
+<StateMachineListenerSingle targetId="0:201" listenerTypeValue="click" name="Action 1">
+<ListenerViewModelChange>
+<BindablePropertyNumber propertyValue="1">
+<DataBindContext sourcePathIds="0:40-0:1002" propertyKey="636" direction="true"/>
+</BindablePropertyNumber>
+</ListenerViewModelChange>
+</StateMachineListenerSingle>
+<StateMachineListenerSingle targetId="0:202" listenerTypeValue="click" name="Action 2">
+<ListenerViewModelChange>
+<BindablePropertyNumber propertyValue="2">
+<DataBindContext sourcePathIds="0:40-0:1002" propertyKey="636" direction="true"/>
+</BindablePropertyNumber>
+</ListenerViewModelChange>
+</StateMachineListenerSingle>
+<StateMachineListenerSingle targetId="0:203" listenerTypeValue="click" name="Action 3">
+<ListenerViewModelChange>
+<BindablePropertyNumber propertyValue="3">
+<DataBindContext sourcePathIds="0:40-0:1002" propertyKey="636" direction="true"/>
+</BindablePropertyNumber>
+</ListenerViewModelChange>
+</StateMachineListenerSingle>
+<StateMachineListenerSingle targetId="0:204" listenerTypeValue="click" name="Action 4">
+<ListenerViewModelChange>
+<BindablePropertyNumber propertyValue="4">
+<DataBindContext sourcePathIds="0:40-0:1002" propertyKey="636" direction="true"/>
+</BindablePropertyNumber>
+</ListenerViewModelChange>
+</StateMachineListenerSingle>
+<StateMachineListenerSingle targetId="0:205" listenerTypeValue="click" name="Action 5">
+<ListenerViewModelChange>
+<BindablePropertyNumber propertyValue="5">
+<DataBindContext sourcePathIds="0:40-0:1002" propertyKey="636" direction="true"/>
+</BindablePropertyNumber>
+</ListenerViewModelChange>
+</StateMachineListenerSingle>
+<StateMachineListenerSingle targetId="0:206" listenerTypeValue="click" name="Action 6">
+<ListenerViewModelChange>
+<BindablePropertyNumber propertyValue="6">
+<DataBindContext sourcePathIds="0:40-0:1002" propertyKey="636" direction="true"/>
+</BindablePropertyNumber>
+</ListenerViewModelChange>
+</StateMachineListenerSingle>
+<StateMachineLayer name="Atmosphere" id="0:8">
+<AnyState x="180" y="-160"/>
+<ExitState x="380" y="-160"/>
+<EntryState>
+<StateTransition stateToId="0:12"/>
+</EntryState>
+<AnimationState x="220" animationId="0:6" id="0:12"/>
+</StateMachineLayer>
+</StateMachine>
+<LinearAnimation name="Factory awake" id="0:6" loopValue="loop" duration="180"/>
+</Artboard>
+<ViewModel name="GameState" id="0:40" defaultInstanceId="0:41">
+<ViewModelPropertyNumber name="order" id="0:1000"/>
+<ViewModelPropertyNumber name="phase" id="0:1001"/>
+<ViewModelPropertyNumber name="action" id="0:1002"/>
+<ViewModelPropertyNumber name="progress" id="0:1003"/>
+<ViewModelPropertyNumber name="magicLevel" id="0:1004"/>
+<ViewModelPropertyNumber name="corruption" id="0:1005"/>
+<ViewModelPropertyNumber name="mix" id="0:1006"/>
+<ViewModelPropertyNumber name="elapsed" id="0:1007"/>
+<ViewModelPropertyNumber name="endingChoice" id="0:1008"/>
+<ViewModelPropertyNumber name="eyeX" id="0:1009"/>
+<ViewModelPropertyNumber name="eyeY" id="0:1010"/>
+<ViewModelPropertyNumber name="stirRotation" id="0:1011"/>
+<ViewModelPropertyNumber name="choiceOpacity" id="0:1012"/>
+<ViewModelPropertyNumber name="gameOpacity" id="0:1013"/>
+<ViewModelPropertyNumber name="dawnOpacity" id="0:1014"/>
+<ViewModelPropertyNumber name="witchBob" id="0:1015"/>
+<ViewModelPropertyNumber name="tailRotation" id="0:1016"/>
+<ViewModelPropertyNumber name="jar1X" id="0:1017"/>
+<ViewModelPropertyNumber name="jar1Y" id="0:1018"/>
+<ViewModelPropertyNumber name="jar2X" id="0:1019"/>
+<ViewModelPropertyNumber name="jar2Y" id="0:1020"/>
+<ViewModelPropertyNumber name="jar3X" id="0:1021"/>
+<ViewModelPropertyNumber name="jar3Y" id="0:1022"/>
+<ViewModelPropertyNumber name="jar1Opacity" id="0:1023"/>
+<ViewModelPropertyNumber name="jar2Opacity" id="0:1024"/>
+<ViewModelPropertyNumber name="jar3Opacity" id="0:1025"/>
+<ViewModelPropertyNumber name="progressWidth" id="0:1026"/>
+<ViewModelPropertyString name="orderLabel" id="0:1027"/>
+<ViewModelPropertyString name="recipe" id="0:1028"/>
+<ViewModelPropertyString name="recipeNote" id="0:1029"/>
+<ViewModelPropertyString name="ingredient1" id="0:1030"/>
+<ViewModelPropertyString name="ingredient2" id="0:1031"/>
+<ViewModelPropertyString name="status" id="0:1032"/>
+<ViewModelPropertyString name="button" id="0:1033"/>
+<ViewModelPropertyString name="dialogue" id="0:1034"/>
+<ViewModelPropertyString name="clock" id="0:1035"/>
+<ViewModelPropertyString name="endingTitle" id="0:1036"/>
+<ViewModelPropertyString name="endingText" id="0:1037"/>
+<ViewModelPropertyString name="jar2Label" id="0:1038"/>
+<ViewModelPropertyString name="jar3Label" id="0:1039"/>
+<ViewModelPropertyNumber name="blinkScale" id="0:1040"/>
+<ViewModelPropertyNumber name="spoonX" id="0:1041"/>
+<ViewModelPropertyNumber name="spoonY" id="0:1042"/>
+<ViewModelPropertyNumber name="spoonRotation" id="0:1043"/>
+<ViewModelPropertyNumber name="batchX" id="0:1044"/>
+<ViewModelPropertyNumber name="batchY" id="0:1045"/>
+<ViewModelPropertyNumber name="batchScale" id="0:1046"/>
+<ViewModelPropertyNumber name="batchScaleY" id="0:1047"/>
+<ViewModelPropertyNumber name="batchOpacity" id="0:1048"/>
+<ViewModelPropertyNumber name="pumpkinOpacity" id="0:1049"/>
+<ViewModelPropertyNumber name="eyeOpacity" id="0:1050"/>
+<ViewModelPropertyNumber name="ghostOpacity" id="0:1051"/>
+<ViewModelPropertyNumber name="choiceButtonsOpacity" id="0:1052"/>
+<ViewModelPropertyNumber name="endingBadgeOpacity" id="0:1053"/>
+<ViewModelPropertyString name="endingHint" id="0:1054"/>
+<ViewModelPropertyNumber name="soundEnabled" id="0:1055"/>
+<ViewModelPropertyString name="soundLabel" id="0:1056"/>
+<ViewModelPropertyNumber name="addedCount" id="0:1057"/>
+<ViewModelPropertyNumber name="belt0X" id="0:1058"/>
+<ViewModelPropertyNumber name="belt1X" id="0:1059"/>
+<ViewModelPropertyNumber name="belt2X" id="0:1060"/>
+<ViewModelPropertyNumber name="belt3X" id="0:1061"/>
+<ViewModelPropertyNumber name="belt4X" id="0:1062"/>
+<ViewModelPropertyNumber name="belt5X" id="0:1063"/>
+<ViewModelPropertyNumber name="belt6X" id="0:1064"/>
+<ViewModelPropertyNumber name="belt7X" id="0:1065"/>
+<ViewModelPropertyNumber name="belt8X" id="0:1066"/>
+<ViewModelPropertyNumber name="belt9X" id="0:1067"/>
+<ViewModelPropertyNumber name="belt10X" id="0:1068"/>
+<ViewModelPropertyNumber name="spark0X" id="0:1069"/>
+<ViewModelPropertyNumber name="spark0Y" id="0:1070"/>
+<ViewModelPropertyNumber name="spark0Opacity" id="0:1071"/>
+<ViewModelPropertyNumber name="spark1X" id="0:1072"/>
+<ViewModelPropertyNumber name="spark1Y" id="0:1073"/>
+<ViewModelPropertyNumber name="spark1Opacity" id="0:1074"/>
+<ViewModelPropertyNumber name="spark2X" id="0:1075"/>
+<ViewModelPropertyNumber name="spark2Y" id="0:1076"/>
+<ViewModelPropertyNumber name="spark2Opacity" id="0:1077"/>
+<ViewModelPropertyNumber name="spark3X" id="0:1078"/>
+<ViewModelPropertyNumber name="spark3Y" id="0:1079"/>
+<ViewModelPropertyNumber name="spark3Opacity" id="0:1080"/>
+<ViewModelPropertyNumber name="spark4X" id="0:1081"/>
+<ViewModelPropertyNumber name="spark4Y" id="0:1082"/>
+<ViewModelPropertyNumber name="spark4Opacity" id="0:1083"/>
+<ViewModelPropertyNumber name="spark5X" id="0:1084"/>
+<ViewModelPropertyNumber name="spark5Y" id="0:1085"/>
+<ViewModelPropertyNumber name="spark5Opacity" id="0:1086"/>
+<ViewModelPropertyNumber name="spark6X" id="0:1087"/>
+<ViewModelPropertyNumber name="spark6Y" id="0:1088"/>
+<ViewModelPropertyNumber name="spark6Opacity" id="0:1089"/>
+<ViewModelPropertyNumber name="spark7X" id="0:1090"/>
+<ViewModelPropertyNumber name="spark7Y" id="0:1091"/>
+<ViewModelPropertyNumber name="spark7Opacity" id="0:1092"/>
+<ViewModelPropertyNumber name="spark8X" id="0:1093"/>
+<ViewModelPropertyNumber name="spark8Y" id="0:1094"/>
+<ViewModelPropertyNumber name="spark8Opacity" id="0:1095"/>
+<ViewModelPropertyNumber name="spark9X" id="0:1096"/>
+<ViewModelPropertyNumber name="spark9Y" id="0:1097"/>
+<ViewModelPropertyNumber name="spark9Opacity" id="0:1098"/>
+<ViewModelPropertyNumber name="spark10X" id="0:1099"/>
+<ViewModelPropertyNumber name="spark10Y" id="0:1100"/>
+<ViewModelPropertyNumber name="spark10Opacity" id="0:1101"/>
+<ViewModelPropertyNumber name="spark11X" id="0:1102"/>
+<ViewModelPropertyNumber name="spark11Y" id="0:1103"/>
+<ViewModelPropertyNumber name="spark11Opacity" id="0:1104"/>
+<ViewModelInstance name="Default" id="0:41" exports="true">
+<ViewModelInstanceNumber propertyValue="1" viewModelPropertyId="0:1000"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1001"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1002"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1003"/>
+<ViewModelInstanceNumber propertyValue="0.15" viewModelPropertyId="0:1004"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1005"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1006"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1007"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1008"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1009"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1010"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1011"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1012"/>
+<ViewModelInstanceNumber propertyValue="1" viewModelPropertyId="0:1013"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1014"/>
+<ViewModelInstanceNumber propertyValue="436" viewModelPropertyId="0:1015"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1016"/>
+<ViewModelInstanceNumber propertyValue="205" viewModelPropertyId="0:1017"/>
+<ViewModelInstanceNumber propertyValue="335" viewModelPropertyId="0:1018"/>
+<ViewModelInstanceNumber propertyValue="205" viewModelPropertyId="0:1019"/>
+<ViewModelInstanceNumber propertyValue="480" viewModelPropertyId="0:1020"/>
+<ViewModelInstanceNumber propertyValue="205" viewModelPropertyId="0:1021"/>
+<ViewModelInstanceNumber propertyValue="625" viewModelPropertyId="0:1022"/>
+<ViewModelInstanceNumber propertyValue="1" viewModelPropertyId="0:1023"/>
+<ViewModelInstanceNumber propertyValue="1" viewModelPropertyId="0:1024"/>
+<ViewModelInstanceNumber propertyValue="1" viewModelPropertyId="0:1025"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1026"/>
+<ViewModelInstanceString propertyValue="ORDER 01 / 03" viewModelPropertyId="0:1027"/>
+<ViewModelInstanceString propertyValue="Pumpkin Pop" viewModelPropertyId="0:1028"/>
+<ViewModelInstanceString propertyValue="A little autumn. A little magic." viewModelPropertyId="0:1029"/>
+<ViewModelInstanceString propertyValue="Moon sugar" viewModelPropertyId="0:1030"/>
+<ViewModelInstanceString propertyValue="Pumpkin spice" viewModelPropertyId="0:1031"/>
+<ViewModelInstanceString propertyValue="Drag the two ingredients into the glowing cauldron." viewModelPropertyId="0:1032"/>
+<ViewModelInstanceString propertyValue="BREW THE BATCH" viewModelPropertyId="0:1033"/>
+<ViewModelInstanceString propertyValue="MIRA  /  Welcome, apprentice. We have a sweet night ahead." viewModelPropertyId="0:1034"/>
+<ViewModelInstanceString propertyValue="11:51 PM" viewModelPropertyId="0:1035"/>
+<ViewModelInstanceString propertyValue="The last batch" viewModelPropertyId="0:1036"/>
+<ViewModelInstanceString propertyValue="The town has given us its sweetest memories. Should Halloween last forever?" viewModelPropertyId="0:1037"/>
+<ViewModelInstanceString propertyValue="Pumpkin spice" viewModelPropertyId="0:1038"/>
+<ViewModelInstanceString propertyValue="Ghost cream" viewModelPropertyId="0:1039"/>
+<ViewModelInstanceNumber propertyValue="1" viewModelPropertyId="0:1040"/>
+<ViewModelInstanceNumber propertyValue="755" viewModelPropertyId="0:1041"/>
+<ViewModelInstanceNumber propertyValue="545" viewModelPropertyId="0:1042"/>
+<ViewModelInstanceNumber propertyValue="-0.55" viewModelPropertyId="0:1043"/>
+<ViewModelInstanceNumber propertyValue="810" viewModelPropertyId="0:1044"/>
+<ViewModelInstanceNumber propertyValue="485" viewModelPropertyId="0:1045"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1046"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1047"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1048"/>
+<ViewModelInstanceNumber propertyValue="1" viewModelPropertyId="0:1049"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1050"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1051"/>
+<ViewModelInstanceNumber propertyValue="1" viewModelPropertyId="0:1052"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1053"/>
+<ViewModelInstanceString propertyValue="" viewModelPropertyId="0:1054"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1055"/>
+<ViewModelInstanceString propertyValue="SOUND OFF" viewModelPropertyId="0:1056"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1057"/>
+<ViewModelInstanceNumber propertyValue="578" viewModelPropertyId="0:1058"/>
+<ViewModelInstanceNumber propertyValue="626" viewModelPropertyId="0:1059"/>
+<ViewModelInstanceNumber propertyValue="674" viewModelPropertyId="0:1060"/>
+<ViewModelInstanceNumber propertyValue="722" viewModelPropertyId="0:1061"/>
+<ViewModelInstanceNumber propertyValue="770" viewModelPropertyId="0:1062"/>
+<ViewModelInstanceNumber propertyValue="818" viewModelPropertyId="0:1063"/>
+<ViewModelInstanceNumber propertyValue="866" viewModelPropertyId="0:1064"/>
+<ViewModelInstanceNumber propertyValue="914" viewModelPropertyId="0:1065"/>
+<ViewModelInstanceNumber propertyValue="962" viewModelPropertyId="0:1066"/>
+<ViewModelInstanceNumber propertyValue="1010" viewModelPropertyId="0:1067"/>
+<ViewModelInstanceNumber propertyValue="1058" viewModelPropertyId="0:1068"/>
+<ViewModelInstanceNumber propertyValue="810" viewModelPropertyId="0:1069"/>
+<ViewModelInstanceNumber propertyValue="510" viewModelPropertyId="0:1070"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1071"/>
+<ViewModelInstanceNumber propertyValue="810" viewModelPropertyId="0:1072"/>
+<ViewModelInstanceNumber propertyValue="510" viewModelPropertyId="0:1073"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1074"/>
+<ViewModelInstanceNumber propertyValue="810" viewModelPropertyId="0:1075"/>
+<ViewModelInstanceNumber propertyValue="510" viewModelPropertyId="0:1076"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1077"/>
+<ViewModelInstanceNumber propertyValue="810" viewModelPropertyId="0:1078"/>
+<ViewModelInstanceNumber propertyValue="510" viewModelPropertyId="0:1079"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1080"/>
+<ViewModelInstanceNumber propertyValue="810" viewModelPropertyId="0:1081"/>
+<ViewModelInstanceNumber propertyValue="510" viewModelPropertyId="0:1082"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1083"/>
+<ViewModelInstanceNumber propertyValue="810" viewModelPropertyId="0:1084"/>
+<ViewModelInstanceNumber propertyValue="510" viewModelPropertyId="0:1085"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1086"/>
+<ViewModelInstanceNumber propertyValue="810" viewModelPropertyId="0:1087"/>
+<ViewModelInstanceNumber propertyValue="510" viewModelPropertyId="0:1088"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1089"/>
+<ViewModelInstanceNumber propertyValue="810" viewModelPropertyId="0:1090"/>
+<ViewModelInstanceNumber propertyValue="510" viewModelPropertyId="0:1091"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1092"/>
+<ViewModelInstanceNumber propertyValue="810" viewModelPropertyId="0:1093"/>
+<ViewModelInstanceNumber propertyValue="510" viewModelPropertyId="0:1094"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1095"/>
+<ViewModelInstanceNumber propertyValue="810" viewModelPropertyId="0:1096"/>
+<ViewModelInstanceNumber propertyValue="510" viewModelPropertyId="0:1097"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1098"/>
+<ViewModelInstanceNumber propertyValue="810" viewModelPropertyId="0:1099"/>
+<ViewModelInstanceNumber propertyValue="510" viewModelPropertyId="0:1100"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1101"/>
+<ViewModelInstanceNumber propertyValue="810" viewModelPropertyId="0:1102"/>
+<ViewModelInstanceNumber propertyValue="510" viewModelPropertyId="0:1103"/>
+<ViewModelInstanceNumber propertyValue="0" viewModelPropertyId="0:1104"/>
+</ViewModelInstance>
+</ViewModel>
+<ScriptAsset file="game.luau" name="game" id="0:80"/>
+<FontAsset file="assets/fonts/Lora.ttf" name="Lora" id="0:90"/>
+<FontAsset file="assets/fonts/Inter.ttf" name="Inter" id="0:91"/>
+<ImageAsset file="assets/art/workshop.png" name="Workshop" id="0:92"/>
+</Rive>

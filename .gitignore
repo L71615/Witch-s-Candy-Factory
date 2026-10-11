@@ -1,0 +1,8 @@
+factory/build/
+runner/build/
+rive-install.review.ps1
+.tools/
+node_modules/
+*.tmp
+*.log
+submission/*.mp4
